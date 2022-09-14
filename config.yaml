@@ -1,6 +1,7 @@
-baseURL: 'http://example.org/'
-languageCode: 'en-us'
-title: 'My New Hugo Base Site'
+baseURL: http://example.org/
+defaultContentLanguage: en-us
+languageCode: en-us
+title: My New Hugo Base Site
 
 # enable render of HTML in Markdown: true, false to desable
 markup:
