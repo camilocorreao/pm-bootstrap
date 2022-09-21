@@ -1,0 +1,12 @@
+{
+  "name": "pm-bootstrap",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "hugo server --gc --disableFastRender",
+    "dev:preview": "npm run dev -- --buildDrafts --buildFuture"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/camilocorreao/pm-bootstrap.git"
+  }
+}
