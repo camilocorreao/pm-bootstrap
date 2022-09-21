@@ -8,8 +8,7 @@
     "renderToDisk": "hugo server --gc --disableFastRender --renderToDisk --cleanDestinationDir",
     "renderToDisk:preview": "npm run renderToDisk --buildDrafts --buildFuture",
     "renderToDisk:production": "npm run renderToDisk --environment production --minify",
-    "hugo-version": "hugo version",
-  },
+    "hugo-version": "hugo version"
   },
   "repository": {
     "type": "git",
