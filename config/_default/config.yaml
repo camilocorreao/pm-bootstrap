@@ -1,0 +1,47 @@
+baseURL: http://localhost/
+# disable taxonomy pages (defaults)
+disableKinds:
+- taxonomy
+- taxonomyTerm
+defaultContentLanguage: de
+defaultContentLanguageInSubdir: true
+languageCode: de-at
+HUGO_DISABLELANGUAGES: en
+title: proMusica
+# alternate copyright company text
+copyright: proMusica
+# controls number of pages displayed on list pages
+paginate: 2
+# controls ths summary length on list pages
+summaryLength: 7
+
+# this is required to enable render of HTML in Markdown: true, false to desable
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+

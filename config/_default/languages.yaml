@@ -1,0 +1,24 @@
+# configuring languages
+# ex. force linking in front matter of the page: translationKey: (about-über uns- sobre nosotros)
+de:
+  baseURL: localhost
+  languageName: Deutsch
+  weight: 10
+  contentDir: content/de
+  menu:
+   main:
+   - name: Github
+     url: http://www.github.com
+     weight: 40
+     params:
+      blank: true
+   - name: Google
+     url: http://www.google.com
+     weight: 50
+     params:
+      blank: true
+en:
+  languageName: English
+  weight: 20
+  contentDir: content/en
+  baseURL: localhost
