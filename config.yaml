@@ -1,4 +1,8 @@
-baseURL: /
+baseURL: http://localhost/
+# disable taxonomy pages (defaults)
+disableKinds:
+- taxonomy
+- taxonomyTerm
 defaultContentLanguage: de
 defaultContentLanguageInSubdir: true
 languageCode: de-at
