@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="{{ .Language.Lang }}">
     {{- partial "head.html" . -}}
-    <body>
+    <body class="d-flex flex-column min-vh-100">
         <header>
             {{- partial "header.html" . -}}
-        </header>
-        <main>
+        </header>                
+        <main class="mb-auto mt-4 pt-4">
             {{- block "main" . }}{{- end }}
         </main>
         <footer>
