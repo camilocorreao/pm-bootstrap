@@ -2,11 +2,16 @@
 main:
 - name: Github
   url: http://www.github.com
-  weight: 90
+  weight: 40
   params:
     blank: true
 - name: Google
   url: http://www.google.com
-  weight: 100
+  weight: 50
   params:
-    blank: tru
+    blank: true
+- name: Google
+  url: http://www.google.com
+  weight: 50
+  params:
+    blank: true

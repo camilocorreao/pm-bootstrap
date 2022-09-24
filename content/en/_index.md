@@ -2,6 +2,8 @@
 title: "proMusica"
 date: 2022-09-13T12:15:06+02:00
 draft: false
+menu: main
+weight: 20
 heading: The proMusica Studio
 btn1: 
     text: Booking

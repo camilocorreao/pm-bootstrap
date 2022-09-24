@@ -6,7 +6,7 @@ disableKinds:
 defaultContentLanguage: de
 defaultContentLanguageInSubdir: true
 languageCode: de-at
-HUGO_DISABLELANGUAGES: en
+# HUGO_DISABLELANGUAGES: en
 title: proMusica
 # alternate copyright company text
 copyright: proMusica

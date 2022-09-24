@@ -3,7 +3,8 @@
     {{- partial "head.html" . -}}
     <body class="d-flex flex-column min-vh-100">
         <header>
-            {{- partial "header.html" . -}}
+            {{- partial "language-switcher.html" . -}}
+            {{- partial "header.html" . -}} 
         </header>                
         <main class="mb-auto mt-4 pt-4">
             {{- block "main" . }}{{- end }}
